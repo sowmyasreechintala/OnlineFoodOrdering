@@ -4,13 +4,14 @@
 {% block admin_welcome %}
     <div class="col mb-2">
     <h1 style="color: maroon;font-size: 30px">state page</h1>
-    {% if data %}
      <form action="{% url 'state_submit' %}" method="post" enctype="multipart/form-data">
      {% csrf_token %}
     <table align="center" width="100%">
         <tr><th>State Name<input type="text" required name="sname"></th><th>Photo<input type="file" required name="sphoto"></th><th><button type="submit">Save</button> </th></tr>
     </table>
      </form>
+    {% if data %}
+
 
      <table align="center" border="2"  style="padding: 50px" width="1000px" >
          <tr><th colspan="5" style="font-size: 30px;color: white;background-color: maroon;text-align: center">State Page</th></tr>
@@ -19,9 +20,21 @@
 
        <tr><th>{{ x.state_name }}</th><th><img src="{{ x.state_photo.url}}" width="100" height="100"></th>
            <th><a href="{% url 'state_update' %}?sid={{ x.state_id }}">update</a></th>
-           <th><a href="{% url 'delete_state' %}?stateid={{ x.state_id }}">delete</a></th>
+           <th></th>
+
+
+{#           <th><a href="{% url 'delete_state' %}?stateid={{ x.state_id }}">delete</a></th>#}
        </tr>
      {% endfor %}
+    <div class="row">
+        <div class="col">
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+          <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
+          <h2 class="alert-heading">Are you sure </h2>
+          <p>yes<a href="#" class="alert-link">click me</a></p>
+    </div>
+        </div>
+    </div>
      </table>
 
         </div>
@@ -31,9 +44,15 @@
         {% csrf_token %}
          <table align="center"><tr><th colspan="5" style="font-size: 30px;color: white;background-color: maroon;text-align: center">State Page</th></tr>
         <tr>
-            <th>State Id<input type="number" value="{{ res.state_id }}" readonly name="sid"></th><th>State Name<input type="text" required name="suname" value="{{ res.state_name}}"></th><th>Photo<input type="file" required name="suphoto" value="{{ res.state_photo }}"></th><th><button type="submit">Update</button> </th></tr>
+            <th>State Id<input type="number" value="{{ res.state_id }}" readonly name="sid"></th><th>State Name<input type="text" required name="suname" value="{{ res.state_name}}"></th><th>Photo<input type="file" required name="suphoto"></th><th><button type="submit">Update</button> </th></tr>
     </table>
         </form>
         </div>
     {% endif %}
+    <script>
+    function show() {
+        alert("okay")
+        document.getElementById('hiddnbuttn').disabled=True
+    }
+    </script>
 {% endblock %}

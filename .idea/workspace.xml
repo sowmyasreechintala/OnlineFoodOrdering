@@ -45,109 +45,65 @@
     <session id="1762569252">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.55" value="2" />
           <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.68" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="42" />
-          <entry key="html" value="2148" />
-          <entry key="py" value="1472" />
+          <entry key="html" value="3250" />
+          <entry key="py" value="1870" />
           <entry key="py@OnlineFoodOrdering" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="39" />
-          <entry key="HTML" value="2148" />
-          <entry key="Python" value="1472" />
+          <entry key="HTML" value="3250" />
+          <entry key="Python" value="1870" />
           <entry key="Scratch" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="adminapp_adminloginmodel" value="4" />
-          <entry key="adminapp_statemodel" value="3" />
-          <entry key="html" value="20" />
+          <entry key="adminapp_citymodel" value="1" />
+          <entry key="adminapp_cuisinemodel" value="1" />
+          <entry key="adminapp_statemodel" value="5" />
+          <entry key="html" value="30" />
+          <entry key="jpg" value="3" />
           <entry key="js" value="4" />
           <entry key="png" value="2" />
-          <entry key="py" value="29" />
+          <entry key="py" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="7" />
-          <entry key="HTML" value="20" />
-          <entry key="Image" value="2" />
+          <entry key="Database Element" value="11" />
+          <entry key="HTML" value="30" />
+          <entry key="Image" value="5" />
           <entry key="JavaScript" value="4" />
-          <entry key="Python" value="29" />
+          <entry key="Python" value="38" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/adminapp/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="46" column="87" selection-start-line="46" selection-start-column="87" selection-end-line="46" selection-end-column="87" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adminapp/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding>
-                <marker date="1599213164260" expanded="true" signature="749:754" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OnlineFoodOrdering/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin/welcome.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="225" column="39" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adminapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OnlineFoodOrdering/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="748">
+              <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
               <folding>
                 <element signature="e#642#674#0" expanded="true" />
               </folding>
@@ -156,10 +112,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin/openstate.html">
+        <entry file="file://$PROJECT_DIR$/adminapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <marker date="1599213164260" expanded="true" signature="749:754" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adminapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/admin/openstate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="33" column="63" lean-forward="true" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+              <folding>
+                <element signature="e#1425#1432#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,6 +156,11 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sphoto</find>
+    </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -188,15 +176,16 @@
         <option value="$PROJECT_DIR$/templates/admin/login.html" />
         <option value="$PROJECT_DIR$/templates/common.html" />
         <option value="$PROJECT_DIR$/templates/admin/home.html" />
-        <option value="$PROJECT_DIR$/templates/admin/opencity.html" />
-        <option value="$PROJECT_DIR$/templates/admin.cuisine.html" />
         <option value="$PROJECT_DIR$/templates/admin/openvendor.html" />
         <option value="$PROJECT_DIR$/templates/admin/report.html" />
         <option value="$PROJECT_DIR$/templates/admin/welcome.html" />
-        <option value="$PROJECT_DIR$/templates/admin/openstate.html" />
-        <option value="$PROJECT_DIR$/adminapp/urls.py" />
         <option value="$PROJECT_DIR$/OnlineFoodOrdering/urls.py" />
+        <option value="$PROJECT_DIR$/templates/admin/opencity.html" />
+        <option value="$PROJECT_DIR$/templates/admin.cuisine.html" />
+        <option value="$PROJECT_DIR$/adminapp/urls.py" />
+        <option value="$PROJECT_DIR$/templates/admin/opencuisine.html" />
         <option value="$PROJECT_DIR$/adminapp/views.py" />
+        <option value="$PROJECT_DIR$/templates/admin/openstate.html" />
       </list>
     </option>
   </component>
@@ -232,29 +221,13 @@
             <path>
               <item name="OnlineFoodOrdering" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineFoodOrdering" type="462c0819:PsiDirectoryNode" />
-              <item name="adminapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineFoodOrdering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineFoodOrdering" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineFoodOrdering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineFoodOrdering" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="state_images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineFoodOrdering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineFoodOrdering" type="462c0819:PsiDirectoryNode" />
-              <item name="OnlineFoodOrdering" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineFoodOrdering" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineFoodOrdering" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,6 +244,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\3projects\3projectscode\OnlineFoodOrdering\templates\admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\3projects\3projectscode\OnlineFoodOrdering\adminapp\static\images" />
       <recent name="E:\3projects\3projectscode\OnlineFoodOrdering\adminapp\static" />
@@ -290,7 +266,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.openstate.html">
+    <configuration name="openstate.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OnlineFoodOrdering/templates/admin/openstate.html">
+      <method v="2" />
+    </configuration>
     <configuration name="OnlineFoodOrdering" type="Python.DjangoServer" factoryName="Django server">
       <module name="OnlineFoodOrdering" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -315,6 +294,15 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.OnlineFoodOrdering" />
+      <item itemvalue="JavaScript Debug.openstate.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.openstate.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -330,15 +318,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15658094" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16792738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34860885" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34860885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,9 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#642#674#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,9 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="e#642#674#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -442,13 +423,7 @@
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python38/site-packages/django/contrib/admin/templates/admin/login.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://1090eddb-29b9-4c83-83cf-a646c0f0bdf4/schema/main/table/adminapp_adminloginmodel">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://1090eddb-29b9-4c83-83cf-a646c0f0bdf4/schema/main/table/adminapp_adminloginmodel" />
     <entry file="file://$PROJECT_DIR$/templates/admin/collapsed-sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -490,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin.cuisine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/openvendor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -511,10 +479,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineFoodOrdering/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3825">
+          <caret line="225" column="39" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineFoodOrdering/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#642#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1090eddb-29b9-4c83-83cf-a646c0f0bdf4/schema/main/table/adminapp_citymodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/city_images/hyd.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/city_images/kamareddy.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/city_images/hyd_sbuCcXT.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/opencity.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="118">
+          <caret line="21" column="87" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="87" />
         </state>
       </provider>
     </entry>
@@ -525,60 +533,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminapp/models.py">
+    <entry file="das://1090eddb-29b9-4c83-83cf-a646c0f0bdf4/schema/main/table/adminapp_cuisinemodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/opencuisine.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="274">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding>
-            <marker date="1599213164260" expanded="true" signature="749:754" ph="..." />
+            <element signature="e#597#618#0#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="225" column="39" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/openstate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineFoodOrdering/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/adminapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineFoodOrdering/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="748">
+          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
           <folding>
             <element signature="e#642#674#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/adminapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <marker date="1599213164260" expanded="true" signature="749:754" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/adminapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="46" column="87" selection-start-line="46" selection-start-column="87" selection-end-line="46" selection-end-column="87" />
+        <state relative-caret-position="220">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/openstate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="33" column="63" lean-forward="true" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+          <folding>
+            <element signature="e#1425#1432#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

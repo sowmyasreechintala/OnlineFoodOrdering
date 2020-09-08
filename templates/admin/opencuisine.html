@@ -1,0 +1,43 @@
+
+{% extends 'admin/welcome.html' %}
+{% load static %}
+{% block admin_welcome %}
+    <div class="col mb-2">
+    <h1 style="color: maroon;font-size: 30px">Cuisine page</h1>
+     <form action="{% url 'cuisine_submit' %}" method="post" enctype="multipart/form-data">
+     {% csrf_token %}
+    <table align="center" width="100%">
+        <tr><th>Cuisine Name<input type="text" required name="pname"></th><th>Cuisine Photo<input type="file" required name="pphoto"></th><th><button type="submit">Save</button> </th></tr>
+    </table>
+     </form>
+    {% if data %}
+     <table align="center" border="2"  style="padding: 50px" width="1000px" >
+         <tr><th colspan="5" style="font-size: 30px;color: white;background-color: maroon;text-align: center">Cuisine Page</th></tr>
+         <tr><th>Cuisine Name</th><th>Cuisine Photo</th><th>Update</th><th>Delete</th></tr>
+   {%  for x in data %}
+
+       <tr><th>{{ x.cuisine_name }}</th><th><img src="{{ x.cuisine_photo.url}}" width="100" height="100"></th>
+           <th><a href="{% url 'cuisine_update' %}?pid={{ x.cuisine_id }}">update</a></th>
+            <th><a href="{% url 'delete_cuisine' %}?pid={{ x.cuisine_id }}">delete</a></th>
+       </tr>
+     {% endfor %}
+     </table>
+
+        </div>
+    {% endif %}
+    {% if res %}
+        <form action="{% url 'cuisine_update_process' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+         <table align="center"><tr><th colspan="5" style="font-size: 30px;color: white;background-color: maroon;text-align: center">Cuisine Page</th></tr>
+        <tr>
+            <th>Cuisine Id<input type="number" value="{{ res.cuisine_id }}" readonly name="pid"></th><th>Cuisine Name<input type="text" required name="puname" value="{{ res.cuisine_name}}"></th><th>Photo<input type="file" required name="puphoto"></th><th><button type="submit">Update</button> </th></tr>
+    </table>
+        </form>
+        </div>
+    {% endif %}
+    <script>
+    function show() {
+        document.getElementById('hiddnbuttn').disabled=True
+    }
+    </script>
+{% endblock %}
