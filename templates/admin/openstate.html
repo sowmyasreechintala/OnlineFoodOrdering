@@ -11,8 +11,6 @@
     </table>
      </form>
     {% if data %}
-
-
      <table align="center" border="2"  style="padding: 50px" width="1000px" >
          <tr><th colspan="5" style="font-size: 30px;color: white;background-color: maroon;text-align: center">State Page</th></tr>
          <tr><th>State Name</th><th>State Photo</th><th>Update</th><th>Delete</th></tr>
@@ -20,21 +18,28 @@
 
        <tr><th>{{ x.state_name }}</th><th><img src="{{ x.state_photo.url}}" width="100" height="100"></th>
            <th><a href="{% url 'state_update' %}?sid={{ x.state_id }}">update</a></th>
-           <th></th>
+           <th><button type="submit" onclick="show()">delete</button></th>
+           <th id="hiddnbuttn">  <div class="row-1">
+        <div class="col-10">
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+          <button type="submit" class="close" data-dismiss="alert" onclick="change()"><span aria-hidden="true">&times;</span></button>
+          <h5 class="alert-heading">Are you sure </h5>
+          <p>yes<a href="{% url 'delete_state' %}?stateid={{ x.state_id }}" class="alert-link">click me</a></p>
+    </div>
+        </div>
+    </div>
+           </th>
+{#           <th><button type="submit" onclick="show()">pop</button></th>#}
+{#           <th id="hiddnbuttn"><button type="submit">test</button> </th>#}
+{#           <th><button type="submit" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">#}
+{#  Popover on right#}
+{#</button></th>#}
 
 
 {#           <th><a href="{% url 'delete_state' %}?stateid={{ x.state_id }}">delete</a></th>#}
        </tr>
      {% endfor %}
-    <div class="row">
-        <div class="col">
-      <div class="alert alert-danger alert-dismissible fade show" role="alert">
-          <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
-          <h2 class="alert-heading">Are you sure </h2>
-          <p>yes<a href="#" class="alert-link">click me</a></p>
-    </div>
-        </div>
-    </div>
+
      </table>
 
         </div>
@@ -52,7 +57,17 @@
     <script>
     function show() {
         alert("okay")
-        document.getElementById('hiddnbuttn').disabled=True
+        document.getElementById('hiddnbuttn').style.opacity="1"
+
+    }
+    function change() {
+        document.getElementById('hiddnbuttn').style.opacity="0.5"
+
     }
     </script>
+    <style>
+    #hiddnbuttn{
+        opacity: 0;
+    }
+    </style>
 {% endblock %}

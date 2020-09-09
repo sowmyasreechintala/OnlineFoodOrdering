@@ -45,22 +45,23 @@
     <session id="1762569252">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.55" value="2" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.68" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="42" />
-          <entry key="html" value="3250" />
+          <entry key="html" value="3508" />
           <entry key="py" value="1870" />
           <entry key="py@OnlineFoodOrdering" value="39" />
         </counts>
@@ -68,7 +69,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="39" />
-          <entry key="HTML" value="3250" />
+          <entry key="HTML" value="3508" />
           <entry key="Python" value="1870" />
           <entry key="Scratch" value="42" />
         </counts>
@@ -102,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adminapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
+            <state relative-caret-position="680">
               <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
               <folding>
                 <element signature="e#642#674#0" expanded="true" />
@@ -127,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/adminapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -138,10 +139,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/admin/openstate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="33" column="63" lean-forward="true" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+            <state relative-caret-position="121">
+              <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
               <folding>
-                <element signature="e#1425#1432#0#HTML" expanded="true" />
+                <element signature="e#1297#1304#1#HTML" expanded="true" />
+                <element signature="n#if#1;n#!!top" />
+                <element signature="e#1682#2290#0#HTML" />
+                <element signature="e#1809#2274#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -195,11 +199,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="675" />
-    <option name="y" value="-8" />
-    <option name="width" value="699" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -266,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.openstate.html">
+  <component name="RunManager" selected="Django server.OnlineFoodOrdering">
     <configuration name="openstate.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OnlineFoodOrdering/templates/admin/openstate.html">
       <method v="2" />
     </configuration>
@@ -325,7 +328,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34860885" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34860885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,13 +380,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ofo/OnlineFoodOrdering/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ofo/OnlineFoodOrdering/urls.py" />
     <entry file="file://$PROJECT_DIR$/Customerapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -552,10 +549,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adminapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
+        <state relative-caret-position="680">
           <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
           <folding>
             <element signature="e#642#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -570,22 +577,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/openstate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="33" column="63" lean-forward="true" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+        <state relative-caret-position="121">
+          <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
           <folding>
-            <element signature="e#1425#1432#0#HTML" expanded="true" />
+            <element signature="e#1297#1304#1#HTML" expanded="true" />
+            <element signature="n#if#1;n#!!top" />
+            <element signature="e#1682#2290#0#HTML" />
+            <element signature="e#1809#2274#0#HTML" />
           </folding>
         </state>
       </provider>
